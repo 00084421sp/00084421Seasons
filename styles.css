@@ -1,0 +1,128 @@
+header {
+	background-color: #360a07;
+	padding: 20px;
+	text-align: center;
+}
+
+.banner-header {
+	background-image: url('https://i.pinimg.com/1200x/4e/03/bb/4e03bb57bc10a472a17ecb90787a7fa3.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 80px 20px;
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+body {
+	background-color: #e3d7bd;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #222;
+	margin: 0;
+
+nav ul {
+	display: flex;
+	gap: 20px;
+	list-style: none;
+	background-color: #360a07;
+	background: linear-gradient(to right, #360a07, #a65b23);
+	padding: 10px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+nav ul li {
+	color: white;
+}
+
+nav a:hover {
+	background-color: #ab8c65;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	display: block;
+}
+
+h3 {
+	text-align: center;
+	display: block;
+}
+
+}
+
+P {
+	text-align: center;
+}
+
+mark {
+	background-color: #d2b082;
+}
+
+ul {
+	ist-style: disc;
+	list-style-position: inside;
+	padding-left: 40px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+li {
+	display: list-item;
+	text-align: center;
+}
+
+table {
+	width: 50%;
+	border-collapse: collapse;
+	margin: 0px auto;
+}
+
+th, td {
+	border: 1px solid #360a07;
+	padding: 10px;
+}
+
+thead th {
+	background-color: #360a07;
+	color: white;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #d2b082;
+}
+
+form {
+	color: white;
+	width: 30%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #360a07;
+	border-radius: 8px;
+	background-color: #5e1b13;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+footer {
+	text-align: center;
+	padding: 15px;
+	background-color: #360a07;
+	background: linear-gradient(to right, #360a07, #a65b23);
+	color: white;
+	margin-top: 30px;
+}
